@@ -1,0 +1,268 @@
+.heroimage{
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: white;
+    position: absolute;
+}
+
+.heropadding{
+    margin-left: 8%;
+    margin-right: 1%;
+}
+
+.navbar{
+    background-color: #0F2F5E;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: "League Spartan", sans-serif;
+    background-position: cover;
+}
+
+.navbar.brand{
+    width: 15%;
+    height: 15%;
+}
+
+.bg1{
+    background-image: linear-gradient(
+        to right,
+        transparent 0%,
+        transparent 75%,
+        #FFEFC8 75%,
+        #FFEFC8 100%
+    ), url(images/backgroundimageherodots.png);
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    /* background: linear-gradient(
+        to right,
+        transparent 0%,
+        transparent 70%,
+        #FFEFC8 70%,
+        #FFEFC8 100%
+    ); */
+}
+
+.tag{
+    /* text-align: right; */
+    padding-top: 3%;
+    /* margin-left: 3%; */
+    padding-left: 10%;
+}
+
+.tag h1{
+    font-size: 9em;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 200;
+}
+
+.asbestos{
+    color: #5E98E3;
+}
+
+.underline{
+    text-decoration-line: underline;
+    text-decoration-color: #F0CC76;
+    text-decoration-thickness:10px;
+}
+
+.tag p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    color: #0F2F5E;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.btn{
+    background-color: #F0CC76;
+    font-weight: 700;
+    border-radius: 100px;
+    color: #0F2F5E;
+    padding: 1%;
+    outline-color: #F0CC76;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 10px;
+}
+
+.aboutusbg{
+    background-image: url(images/aboutusbg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.aboutusimage{
+    border-radius: 50px;
+    margin-top: 20%;
+    /* position: absolute; */
+    
+}
+
+/* .aboutussmallerimg{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+} */
+
+/* .aboutusimagebg{
+    background-image: url(images/whoarewe_primary.jpg);
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: white;
+} */
+
+
+.aboutustext{
+    /* padding: 10% 0 10%; */
+    color: #0F2F5E;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.sectiontitle{
+    font-family: "League Spartan", sans-serif;
+    font-size: 3.75em;
+    font-weight: 600;
+    color: #0F2F5E;
+}
+
+.sectiontext{
+    font-family: "Roboto", sans-serif;
+    color: #0F2F5E;
+}
+
+blockquote{
+    position: relative;
+    font-family: "Caveat", serif;
+}
+
+blockquote p{
+    font-size: 2em;
+    color: #5E98E3;
+}
+
+blockquote :before{
+    content: open-quote;
+    top: 10px;
+    left:-40px;
+
+}
+
+blockquote :after{
+    content: close-quote;
+    top: 0.5%;
+}
+
+blockquote :before,
+blockquote :after{
+    font-size: 4em;
+    position: absolute;
+}
+
+.whoarewebtn{
+    margin-left: 10%;
+}
+
+.historyimage{
+    border-radius: 50px;
+    /* margin-top: 25%;
+    margin-bottom: 25%; */
+}
+
+.historysmallerimage{
+    position: absolute;
+    left: 80%;
+    top: 60%;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: white;
+}
+
+
+.historybg{
+    background-color:#F9F7F1;
+    background-image: url(images/historybg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+/* .historysection{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+} */
+
+.historytext{
+    padding-top: 3%;
+}
+
+.historybtn{
+   margin-left: 10%;
+}
+
+.learnaboutbg{
+    background-image: url(images/learnaboutbg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+
+.learnabouttext{
+    /* padding-right: 6%; */
+    padding-bottom: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 3%;
+}
+
+.researchsection{
+    background-color:#F9F7F1;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.medicalsection{
+    background-color:#F9F3E0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.learnabouticon{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer{
+    background-color: #0F2F5E;
+    color: white;
+    padding-top: 3%;
+}
+
+.footerright{
+    justify-content: end;
+    padding-bottom: 3%;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.footerend{
+    background-color:#CFD5DF;
+    color: #0F2F5E;
+    text-align: center;
+}
