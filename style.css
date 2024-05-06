@@ -87,7 +87,8 @@
 }
 
 .aboutusbg{
-    background-image: url(images/aboutusbg.svg);
+    /* background-image: url(images/aboutusbg.svg); */
+    background-image: url(images/aboutusbg1.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 5%;
