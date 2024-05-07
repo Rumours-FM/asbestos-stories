@@ -1,8 +1,23 @@
+:root{
+    --navy:#0F2F5E;
+    --cream:#FFEFC8; 
+    --lightblue: #5E98E3; 
+    --yellow: #F0CC76;
+    --yellowgray: #F9F7F1; 
+    --sandy:#F9F5EA;
+    --bluegray:#CFD5DF;
+}
+
 .heroimage{
     border-radius: 50%;
-    border: 5px solid;
+    border: 10px solid;
     border-color: white;
     position: absolute;
+}
+
+.containerheader{
+    padding-right: 0; 
+    padding-left: 0; 
 }
 
 .heropadding{
@@ -11,11 +26,12 @@
 }
 
 .navbar{
-    background-color: #0F2F5E;
+    background-color: var(--navy);
     font-size: 1.2em;
-    font-weight: 500;
+    /* font-weight: 500; */
     font-family: "League Spartan", sans-serif;
     background-position: cover;
+    color: white;
 }
 
 .navbar.brand{
@@ -23,13 +39,24 @@
     height: 15%;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 239, 200, 1);
+    /* color: rgba(94, 152, 227, 1); */
+
+}
+
+
 .bg1{
     background-image: linear-gradient(
         to right,
         transparent 0%,
         transparent 75%,
-        #FFEFC8 75%,
-        #FFEFC8 100%
+        var(--cream) 75%,
+        var(--cream) 100%
     ), url(images/heroimage.png);
     background-repeat: no-repeat;
     padding-top: 10%;
@@ -54,33 +81,35 @@
     font-size: 9em;
     font-family: "League Spartan", sans-serif;
     font-weight: 200;
+    color: var(--navy);
 }
 
 .asbestos{
-    color: #5E98E3;
+    color: var(--lightblue);
 }
 
 .underline{
     text-decoration-line: underline;
-    text-decoration-color: #F0CC76;
+    text-decoration-color: var(--cream);
     text-decoration-thickness:10px;
 }
 
 .tag p{
-    font-family: "Roboto", sans-serif;
-    font-size: 1.5em;
-    color: #0F2F5E;
-    font-style: italic;
+    font-family: "Literata", sans-serif;
+    font-size: 1.3em;
+    color: var(--navy);
+    font-weight: 600;
+    /* font-style: italic; */
     padding-bottom: 20px;
 }
 
 .btn{
-    background-color: #F0CC76;
+    background-color: var(--yellow);
     font-weight: 700;
     border-radius: 100px;
-    color: #0F2F5E;
+    color: var(--navy);
     padding: 1%;
-    outline-color: #F0CC76;
+    outline-color: var(--yellow);
     padding-left: 2%;
     padding-right: 2%;
     margin-top: 10px;
@@ -120,7 +149,7 @@
 
 .aboutustext{
     /* padding: 10% 0 10%; */
-    color: #0F2F5E;
+    color: var(--navy);
     margin-top: 5%;
     margin-bottom: 10%;
     padding-top: 5%;
@@ -131,12 +160,13 @@
     font-family: "League Spartan", sans-serif;
     font-size: 3.75em;
     font-weight: 600;
-    color: #0F2F5E;
+    color: var(--navy);
 }
 
 .sectiontext{
     font-family: "Roboto", sans-serif;
-    color: #0F2F5E;
+    color: var(--navy);
+    /* line-height: 0.5em; */
 }
 
 blockquote{
@@ -163,12 +193,12 @@ blockquote:before,
 blockquote:after{
     /* font-size: 3em; */
     /* position: absolute; */
-    color: #F0CC76;
+    color: var(--yellow);
 }
 
 .aboutquote{
-    font-size: 1.5em;
-    color: #5E98E3;
+    font-size: 1.6em;
+    color: var(--lightblue);
 }
 
 
@@ -189,7 +219,7 @@ blockquote:after{
 
 
 .historybg{
-    background-color:#F9F7F1;
+    background-color: var(--yellowgray);
     background-image: url(images/historybg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -215,11 +245,16 @@ blockquote:after{
 }
 
 .learnaboutbg{
-    background-image: url(images/learnaboutbg.svg);
+    background-image: url(images/learnaboutbg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 5%;
     padding-bottom: 10%;
+}
+
+.learnaboutquote{
+    color: var(--lightblue);
+    font-size: 1.6em;
 }
 
 
@@ -231,14 +266,18 @@ blockquote:after{
     padding-top: 3%;
 }
 
+.learnaboutsmalltext{
+    padding-top: 10%;
+}
+
 .researchsection{
-    background-color:#F9F7F1;
+    background-color:var(--yellowgray);
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 .medicalsection{
-    background-color:#F9F3E0;
+    background-color:var(--sandy);
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -249,13 +288,14 @@ blockquote:after{
 }
 
 footer{
-    background-color: #0F2F5E;
+    background-color: var(--navy);
     color: white;
     padding-top: 3%;
 }
 
 .footerright{
-    justify-content: end;
+    /* justify-content: end; */
+
     padding-bottom: 3%;
 }
 
@@ -264,11 +304,26 @@ footer ul{
 }
 
 .footerend{
-    background-color:#CFD5DF;
-    color: #0F2F5E;
+    background-color:var(--bluegray);
+    color: var(--navy);
     text-align: center;
+}
+.containerfooter{
+    padding-right: 0; 
+    padding-left: 0; 
 }
 
 .storiesquote{
     font-size: 2.7em;
+    color: var(--lightblue);
 }
+
+.storiesbg{
+    background-image: url(images/storiesbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
