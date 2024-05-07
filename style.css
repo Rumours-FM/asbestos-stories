@@ -140,36 +140,37 @@
 }
 
 blockquote{
-    position: relative;
-    font-family: "Caveat", serif;
+    /* position: relative; */
+    font-family: "Cedarville Cursive", serif;
+    /* font-family: "Caveat", serif; */
+ 
 }
 
-blockquote p{
-    font-size: 2em;
+
+blockquote:before{
+    content:"\275D";
+    /* bottom: 20%; */
+
+}
+
+blockquote:after{
+    content:"\275E";
+    vertical-align: text-top;
+
+}
+
+blockquote:before,
+blockquote:after{
+    /* font-size: 3em; */
+    /* position: absolute; */
+    color: #F0CC76;
+}
+
+.aboutquote{
+    font-size: 1.5em;
     color: #5E98E3;
 }
 
-blockquote :before{
-    content: open-quote;
-    top: 10px;
-    left:-40px;
-
-}
-
-blockquote :after{
-    content: close-quote;
-    top: 0.5%;
-}
-
-blockquote :before,
-blockquote :after{
-    font-size: 4em;
-    position: absolute;
-}
-
-.whoarewebtn{
-    margin-left: 10%;
-}
 
 .historyimage{
     border-radius: 50px;
@@ -266,4 +267,8 @@ footer ul{
     background-color:#CFD5DF;
     color: #0F2F5E;
     text-align: center;
+}
+
+.storiesquote{
+    font-size: 2.7em;
 }
