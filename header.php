@@ -36,7 +36,7 @@
     <header class="container-fluid containerheader">
         <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
-            <a class="navbar-brand" href="#"><img alt="asbestos stories logo" src="images/AsbestosStories_Logo_2024_White.svg"></a>
+            <a class="navbar-brand" href="#"><img alt="asbestos stories logo" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/AsbestosStories_Logo_2024_White.svg"></a>
         
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -47,7 +47,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><img alt="home button" src="images/home.svg"></a>
+                    <a class="nav-link" href="#"><img alt="home button" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/home.svg"></a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">About Us</a>
@@ -62,7 +62,7 @@
                     <a class="nav-link" href="#">Learn More</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><img alt="search" src="images/search.svg"></a>
+                    <a class="nav-link" href="#"><img alt="search" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/search.svg"></a>
                 </li>
             </ul>
             </div>
@@ -75,7 +75,7 @@
         <a href="#" class="btn btn-warning btnstories" role="button">Read Their Stories</a>
     </div> <!-- container -->
     <div class="container img-fluid col-md-4 heropadding">
-        <img class="heroimage img-fluid" alt="men standing in frront of truck at Wittenoom" src="images/heroimage2.png">
+        <img class="heroimage img-fluid" alt="men standing in frront of truck at Wittenoom" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/heroimage2.png">
     </div>
 </div>
 <?php wp_head(); ?> 
