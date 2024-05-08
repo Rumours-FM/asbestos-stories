@@ -50,6 +50,18 @@
     }
 }
 
+@media only screen and (max-width: 1010px){
+    .bg1{
+        background-image: linear-gradient(
+        to right,
+        transparent 0%,
+        transparent 75%,
+        var(--cream) 75%,
+        var(--cream) 100%
+    ), url(images/heroimagesmallersize.png);
+    }
+}
+
 @media only screen and (max-width: 989px){
     .sectiontitle{
         font-size: 2.5em;
@@ -80,15 +92,6 @@
     }
     .historysmallerimage{
         left: 50%;    
-    }
-    .bg1{
-        background-image: linear-gradient(
-        to right,
-        transparent 0%,
-        transparent 75%,
-        var(--cream) 75%,
-        var(--cream) 100%
-    ), url(images/heroimagesmallersize.png);
     }
 }
 
