@@ -1,0 +1,205 @@
+@media only screen and (max-width: 1686px){
+    .tag h1{
+        font-size: 8em;
+    }
+}
+
+@media only screen and (max-width: 1505px){
+    .tag h1{
+        font-size: 7em;
+    }
+}
+
+@media only screen and (max-width: 1315px){
+    .tag h1{
+        font-size: 6em;
+    }
+}
+
+@media only screen and (max-width: 1267px){
+    .historysmallerimage{
+        left: 74%;    
+    }
+}
+
+@media only screen and (max-width: 1197px){
+    .sectiontitle{
+        font-size: 3.4em;
+    }
+}
+
+@media only screen and (max-width: 1127px){
+    .tag h1{
+        font-size: 5.5em;
+    }
+}
+
+@media only screen and (max-width: 1075px){
+    .historysmallerimage{
+        left: 65%;    
+    }
+}
+
+
+@media only screen and (max-width: 1036px){
+    .tag h1{
+        font-size: 5.2em;
+    }
+    .tag p{
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (max-width: 989px){
+    .sectiontitle{
+        font-size: 2.5em;
+    }
+    .storiesquote{
+        font-size: 3.5em;
+    }
+    .historysmallerimage{
+        top: 40%;    
+    }
+}
+
+@media only screen and (max-width: 979px){
+    .tag h1{
+        font-size: 4.5em;
+    }
+    .aboutquote{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 849px){
+    .tag h1{
+        font-size: 4em;
+    }
+    .tag p{
+        font-size: 1em;
+    }
+    .historysmallerimage{
+        left: 50%;    
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .heroimage{
+        position: relative;
+    }
+    .heropadding{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .bg1{
+        background-image: linear-gradient(
+            to right,
+            transparent 0%,
+            transparent 50%,
+            var(--cream) 50%,
+            var(--cream) 100%
+        ), url(images/heroimage.png);    
+    }
+    .tag p{
+        max-width: 48%;
+    }
+    .tag h1{
+        padding-left: 5%;
+    }
+    .historybtn{
+        margin-left: 0%;
+        margin-right: 00%;
+     }
+     .aboutustext{
+        text-align: center;
+     }
+     .storiestext{
+        text-align: center;
+     }
+     .historyimage{
+        margin-top: 10%;
+     }
+     .historysmallerimage {
+        left: 70%;
+        top: 70%;
+      }
+    .historysection{
+        text-align: center;
+    }
+    .learnabouttext{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .aboutquote{
+        font-size: 2.4em;
+    }
+    .historybg{
+        padding-bottom: 15%;
+    }
+}
+
+@media only screen and (max-width: 737px){
+    .tag h1{
+        padding-left: 3%;
+    }
+}
+
+@media only screen and (max-width: 717px){
+    .tag h1{
+        padding-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .tag h1{
+        font-size: 3em;
+    }
+    .tag p{
+        font-size: 0.5;
+    }
+    
+}
+
+@media only screen and (max-width: 558px){
+    .historysmallerimage{
+        left: 60%;
+        top: 50;    
+    }
+    .storiesquote{
+        font-size: 2.4em;
+    }
+    .tag p{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 484px){
+    .historysmallerimage{
+        top: 60%;    
+    }
+    .tag h1{
+        font-size: 4em;
+    }
+    .footerright {
+        padding-top: 3%;
+        width: 50%;
+      }
+}
+
+@media only screen and (max-width: 440px){
+    .historysmallerimage{
+        left: 55%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .historysmallerimage{
+        left: 50%; 
+        top: 55%;  
+        width: 50%;
+    }
+    .tag p{
+        padding-bottom: 0%;
+    }
+}
