@@ -81,6 +81,15 @@
     .historysmallerimage{
         left: 50%;    
     }
+    .bg1{
+        background-image: linear-gradient(
+        to right,
+        transparent 0%,
+        transparent 75%,
+        var(--cream) 75%,
+        var(--cream) 100%
+    ), url(images/heroimagesmallersize.png);
+    }
 }
 
 @media only screen and (max-width: 767px){
@@ -99,7 +108,7 @@
             transparent 50%,
             var(--cream) 50%,
             var(--cream) 100%
-        ), url(images/heroimage.png);    
+        ), url(images/heroimagesmallersize.png);    
     }
     .tag p{
         max-width: 48%;
