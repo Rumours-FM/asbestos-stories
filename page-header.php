@@ -68,15 +68,11 @@
             </div>
         </nav>
 
-    <div class="row bg1">
+    <div class="row pageheader">
     <div class="col-md-6 tag">
         <h1>About <b class="asbestos">Us</b></h1>
         <p>Who are we and what do we intend to achieve?</p>
-
     </div> <!-- container -->
-    <div class="container img-fluid col-md-4 heropadding">
-        <img class="heroimage img-fluid" alt="men standing in frront of truck at Wittenoom" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/heroimage2.png">
-    </div>
 </div>
 <?php wp_head(); ?> 
     </header>
