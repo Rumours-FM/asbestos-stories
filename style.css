@@ -320,6 +320,8 @@ blockquote:after{
 .researchsection{
     background-color:var(--yellowgray);
     background-image: url(images/researchbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 5%;
     padding-bottom: 5%;
 }
@@ -328,6 +330,8 @@ blockquote:after{
 .medicalsection{
     background-color:var(--sandy);
     background-image: url(images/medicalbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 5%;
     padding-bottom: 5%;
 }
