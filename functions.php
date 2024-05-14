@@ -22,4 +22,6 @@ add_action( 'after_setup_theme', 'register_navwalker' );
 register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'top-menu' ),
 ) );
+?><?php
+add_theme_support('post-thumbnails'); 
 ?>
