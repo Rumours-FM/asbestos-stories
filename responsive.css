@@ -22,6 +22,12 @@
     }
 }
 
+@media only screen and (max-width: 1247px){
+    .smalltag h1{
+        font-size: 3.5em;
+    }
+}
+
 @media only screen and (max-width: 1197px){
     .sectiontitle{
         font-size: 3.4em;
@@ -31,6 +37,12 @@
 @media only screen and (max-width: 1127px){
     .tag h1{
         font-size: 5.5em;
+    }
+}
+
+@media only screen and (max-width: 1098px){
+    .smalltag h1{
+        font-size: 3.4em;
     }
 }
 

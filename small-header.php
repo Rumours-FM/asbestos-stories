@@ -66,9 +66,8 @@ wp_nav_menu( array(
         var(--cream) 85%,
         var(--cream) 100%
     ), url(<?php the_field('smallheaderbg'); ?>);">
-    <div class="col-md-6 tag">
-        <!-- <h1> </h1>
-        <p></p> -->
+    <div class="col-md-6 smalltag">
+        <h1><?php the_field('smallheadertitle'); ?> </h1>
     </div> <!-- container -->
 </div>
 <?php wp_head(); ?> 
