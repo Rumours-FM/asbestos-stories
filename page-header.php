@@ -39,34 +39,25 @@
             <a class="navbar-brand" href="#"><img alt="asbestos stories logo" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/AsbestosStories_Logo_2024_White.svg"></a>
         
             <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-        
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><img alt="home button" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/home.svg"></a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Stories</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">History</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Learn More</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><img alt="search" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/search.svg"></a>
-                </li>
-            </ul>
-            </div>
-        </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+      
+        <?php 
+
+wp_nav_menu( array(
+  'theme_location'  => 'primary',
+  'depth'           => 2, // 1 = no dropdowns, 2 = with dropdowns.
+  'container'       => 'div',
+  'container_class' => 'collapse navbar-collapse',
+  'container_id'    => 'bs-example-navbar-collapse-1',
+  'menu_class'      => 'navbar-nav ml-auto',
+  'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+  'walker'          => new WP_Bootstrap_Navwalker(),
+) );
+
+?>
+</nav>
 
     <div class="row pageheader" style="background-image: linear-gradient(
         to right,
