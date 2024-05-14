@@ -68,10 +68,16 @@
             </div>
         </nav>
 
-    <div class="row pageheader">
+    <div class="row pageheader" style="background-image: linear-gradient(
+        to right,
+        transparent 0%,
+        transparent 85%,
+        var(--cream) 85%,
+        var(--cream) 100%
+    ), url(<?php the_field('pageheadertitle'); ?>);">
     <div class="col-md-6 tag">
-        <h1>About <b class="asbestos">Us</b></h1>
-        <p>Who are we and what do we intend to achieve?</p>
+        <h1><?php the_field('pageheadertitle'); ?> </h1>
+        <p><?php the_field('pagetagline'); ?></p>
     </div> <!-- container -->
 </div>
 <?php wp_head(); ?> 
