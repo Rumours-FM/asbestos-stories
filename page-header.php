@@ -74,9 +74,9 @@
         transparent 85%,
         var(--cream) 85%,
         var(--cream) 100%
-    ), url(<?php the_field('pageheadertitle'); ?>);">
-    <div class="col-md-6 tag">
-        <h1><?php the_field('pageheadertitle'); ?> </h1>
+    ), url(<?php the_field('pageheaderbg'); ?>);">
+    <div class="col-md-6 pagetag">
+        <h1><?php the_field('pageheadertitle'); ?> <b class="asbestos"><?php the_field('asbestos'); ?><span class=" underline"><?php the_field('underline'); ?></span></b></h1>
         <p><?php the_field('pagetagline'); ?></p>
     </div> <!-- container -->
 </div>
