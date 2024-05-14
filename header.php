@@ -59,14 +59,20 @@ wp_nav_menu( array(
 ?>
 </nav>
 
-    <div class="row bg1">
+    <div class="row" style="background-size: cover; padding-top: 10%; padding-bottom: 10%; background-image: linear-gradient(
+        to right,
+        transparent 0%,
+        transparent 75%,
+        var(--cream) 75%,
+        var(--cream) 100%
+    ), url(<?php the_field('headerbackgroundimage') ?>);">
     <div class="col-md-6 tag">
-        <h1>The Legacy of <b class="asbestos">A<span class=" underline">sbestos</span></b></h1>
-        <p>Remembering those whose lives were impacted by asbestos</p>
-        <a href="#" class="btn btn-warning btnstories" role="button">Read Their Stories</a>
+        <h1><?php the_field('maintagline'); ?></h1>
+        <p><?php the_field('secondtagline'); ?></p>
+        <a href="<?php the_field('buttonforstories'); ?>" class="btn btn-warning btnstories" role="button">Read Their Stories</a>
     </div> <!-- container -->
     <div class="container img-fluid col-md-4 heropadding">
-        <img class="heroimage img-fluid" alt="men standing in frront of truck at Wittenoom" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/heroimage2.png">
+        <img class="heroimage img-fluid" alt="men standing in frront of truck at Wittenoom" src="<?php the_field('headerimage_circle'); ?>">
     </div>
 </div>
 <?php wp_head(); ?> 
