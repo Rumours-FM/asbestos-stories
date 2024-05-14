@@ -14,7 +14,7 @@
                     <h2 class="sectiontitle"><?php the_field('titleforwhoarewe'); ?></h2><!--  custom field for the aboutme content-->
                     <p class="sectiontext"><?php the_field('paragraphforwhoarewe'); ?></p>
                     <blockquote class="aboutquote text-center"><?php the_field('quoteforwhoarewe'); ?></blockquote>
-                    <a href="#" class="btn btn-warning whoarewebtn" role="button">Learn More</a>
+                    <a href="<?php the_field('buttonforwhoarewe'); ?>" class="btn btn-warning whoarewebtn" role="button">Learn More</a>
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
@@ -31,7 +31,7 @@
                     <h2 class="sectiontitle"><?php the_field('titleforstories'); ?></h2>
                     <p class="sectiontext"><?php the_field('paragraphforstories_top'); ?></p>
                     <p class="sectiontext"><?php the_field('paragraphforstories_bottom'); ?></p>
-                    <a href="#" class="btn btn-warning whoarewebtn" role="button">Learn More</a>
+                    <a href="<?php the_field('buttonforstories'); ?>" class="btn btn-warning whoarewebtn" role="button">Learn More</a>
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
                     <h2 class="sectiontitle"><?php the_field('titleforhistory'); ?></h2>
                     <p class="sectiontext historytext"><?php the_field('paragraphforhistory_top'); ?></p>
                         <p class="sectiontext"><?php the_field('paragraphforhistory_bottom'); ?></p>
-                    <a href="#" class="btn btn-warning historybtn" role="button">Learn More</a>
+                    <a href="<?php the_field('buttonforhistory'); ?>" class="btn btn-warning historybtn" role="button">Learn More</a>
                 </div>
                 
                     <div class="col-md-6">
@@ -69,14 +69,14 @@
             <div class="row">
 
                 <div class="col-md-6 researchsection">
-                    <img class="learnabouticon img-fluid" alt="image of lung" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/lung.svg">
+                    <img class="learnabouticon img-fluid" alt="image of lung" src="<?php the_field('imageforlearnabout_left'); ?>">
                     <p class="sectiontext learnabouttext learnaboutsmalltext"><?php the_field('paragraphforlearnabout_left'); ?></p>
-                    <a href="#" class="btn btn-warning" role="button">Learn More</a>
+                    <a href="<?php the_field('buttonforresearch'); ?>" class="btn btn-warning" role="button">Learn More</a>
                 </div>
                 <div class="col-md-6 medicalsection">
-                    <img class="learnabouticon img-fluid" alt="image of files" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/file.svg">
+                    <img class="learnabouticon img-fluid" alt="image of files" src="<?php the_field('imageforlearnabout_right'); ?>">
                     <p class="sectiontext learnabouttext learnaboutsmalltext"><?php the_field('paragraphforlearnabout_left'); ?></p>
-                    <a href="#" class="btn btn-warning" role="button">Learn More</a>
+                    <a href="<?php the_field('buttonforstories'); ?>" class="btn btn-warning" role="button">Learn More</a>
                 </div>
 
             </div> <!-- row -->
