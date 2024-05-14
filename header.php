@@ -59,7 +59,7 @@ wp_nav_menu( array(
 ?>
 </nav>
 
-    <div class="row" style="background-size: cover; padding-top: 10%; padding-bottom: 10%; background-image: linear-gradient(
+    <div class="row bg1" style="background-size: cover; padding-top: 10%; padding-bottom: 10%; background-image: linear-gradient(
         to right,
         transparent 0%,
         transparent 75%,
@@ -67,7 +67,7 @@ wp_nav_menu( array(
         var(--cream) 100%
     ), url(<?php the_field('headerbackgroundimage') ?>);">
     <div class="col-md-6 tag">
-        <h1><?php the_field('maintagline'); ?></h1>
+        <h1><?php the_field('maintagline'); ?> <b class="asbestos"><?php the_field('asbestos'); ?><span class=" underline"><?php the_field('underline'); ?></span></b></h1>
         <p><?php the_field('secondtagline'); ?></p>
         <a href="<?php the_field('buttonforstories'); ?>" class="btn btn-warning btnstories" role="button">Read Their Stories</a>
     </div> <!-- container -->
