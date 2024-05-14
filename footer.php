@@ -10,15 +10,15 @@
         
                     <div class="col-sm-4 footerright">
                         <ul>
-                            <li><a>ABOUT US</a></li>
-                            <li><a>CONTACT US</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="#">CONTACT US</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-4 footerright">
                         <ul>
-                            <li><a>NHMRC</a></li>
-                            <li><a>NCARD</a></li>
-                            <li><a>MURDOCH UNIVERSITY</a></li>
+                            <li><a href="#">NHMRC</a></li>
+                            <li><a href="#">NCARD</a></li>
+                            <li><a href="#">MURDOCH UNIVERSITY</a></li>
 
                         </ul>
                     </div>
@@ -33,9 +33,9 @@
             
         </div> <!-- container -->
         <div class="container-fluid footerend">
-            <a>TERMS OF USE</a>
-            <a>PRIVACY</a>
-            <a>ACKNOWLEDGEMENTS</a>
+            <a href="#">TERMS OF USE</a>
+            <a href="#">PRIVACY</a>
+            <a href="#">ACKNOWLEDGEMENTS</a>
         </div>
     </footer>
     <?php wp_footer(); ?>

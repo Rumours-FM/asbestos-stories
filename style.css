@@ -35,7 +35,7 @@ body{
     font-size: 1.2em;
     /* font-weight: 500; */
     font-family: "League Spartan", sans-serif;
-    background-position: cover;
+    background-size:cover;
     color: white;
 }
 
@@ -400,4 +400,29 @@ footer ul{
     height: 25vh; 
     width: 100%;
     background-repeat: no-repeat;
+    padding-bottom: 1%;
+}
+
+.imageborder{
+    border-radius: 50px;
+}
+
+.pagetag{
+    padding-left: 5%;
+}
+
+.pagetag h1{
+    font-size: 7em;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 200;
+    color: var(--navy);
+}
+
+.pagetag p{
+    font-family: "Literata", sans-serif;
+    font-size: 1em;
+    color: var(--navy);
+    font-weight: 600;
+    /* font-style: italic; */
+    padding-bottom: 20px;
 }
