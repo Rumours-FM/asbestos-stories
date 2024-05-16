@@ -72,6 +72,7 @@
 
     .pagetag h1{
         font-size: 5.2em;
+        max-width: 48%;
     }
 }
 
@@ -188,9 +189,21 @@
     }
 }
 
+@media only screen and (max-width: 720px){
+    .pagetag h1{
+        max-width: 50%;
+    }
+}
+
 @media only screen and (max-width: 717px){
     .tag h1{
         padding-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 690px){
+    .pagetag h1{
+        max-width: 100%;
     }
 }
 
