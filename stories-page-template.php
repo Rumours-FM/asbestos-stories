@@ -8,6 +8,9 @@ Template Name: Stories
     <div class="container">
         <div class="row">
             <section class="maintext">
+                <div>
+                <p class="sectiontext"><?php the_field('blurbforstories'); ?></p>
+                </div>
                 <div class="post-grid">
                     <?php 
                     $args = array(
