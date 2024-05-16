@@ -12,7 +12,9 @@ Template Name: Stories
                     <?php 
                     $args = array(
                         'category_name' =>  'Asbestos Stories',
-                        // 'posts_per_page'    =>   -1
+                        'orderby'        => 'date', 
+                        'order'          => 'ASC',
+                        'posts_per_page'    =>   -1
                     );
                     // the query
                     $the_query = new WP_Query( $args ); ?>
@@ -41,4 +43,3 @@ Template Name: Stories
     </div>
 </div>
 <?php get_footer(); ?>
-
