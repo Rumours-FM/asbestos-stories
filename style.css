@@ -460,14 +460,15 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
 .post-grid {
     display: flex;
     flex-wrap: wrap;
-    margin: -15px;
+    margin: -3%;
+    padding: 5%
 }
 
 .post-item {
     position: relative;
     flex: 0 0 calc(33.3333% - 30px);
     box-sizing: border-box;
-    margin: 15px;
+    margin: 1%;
 }
 
 .post-link {
