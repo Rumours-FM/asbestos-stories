@@ -14,6 +14,10 @@
     .tag h1{
         font-size: 6em;
     }
+
+    .smalltag h1{
+        font-size: 6em;
+    }
 }
 
 @media only screen and (max-width: 1267px){
