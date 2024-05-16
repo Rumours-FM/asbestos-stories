@@ -500,8 +500,8 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
 .post-title {
     position: absolute;
     font-family: "League Spartan", sans-serif;
-    bottom: 20px;
-    left: 20px;
+    bottom: 8%;
+    left: 10%;
     color: #fff;
     font-size: 1.6em;
     font-weight: bold;
