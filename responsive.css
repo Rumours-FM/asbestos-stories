@@ -72,7 +72,6 @@
 
     .pagetag h1{
         font-size: 5.2em;
-        max-width: 48%;
     }
 }
 
@@ -148,8 +147,11 @@
     .pagetag{
         padding-left:5%;
     }
+    .pagetag h1{
+        max-width:48%
+    }
     .pagetag p{
-        max-width: 48%;
+        max-width:48%
     }
     .historybtn{
         margin-left: 0%;
@@ -201,7 +203,7 @@
     }
 }
 
-@media only screen and (max-width: 690px){
+@media only screen and (max-width: 693px){
     .pagetag h1{
         max-width: 100%;
     }
