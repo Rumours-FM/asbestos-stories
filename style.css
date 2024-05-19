@@ -525,6 +525,7 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
     opacity: 1; /* Fully visible on hover */
 }
 
-.page-id-1014 .entry-title{
-    display:none;
+.storiesblurb{
+    padding: 4%;
 }
+
