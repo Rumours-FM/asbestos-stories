@@ -364,6 +364,10 @@ footer{
     padding-bottom: 3%;
 }
 
+.footerright a{
+    color: white;
+}
+
 /* stopping the li becoming a dot point */
 footer ul{
     list-style-type: none;
@@ -375,6 +379,11 @@ footer ul{
     color: var(--navy);
     text-align: center;
 }
+
+.footerend a{
+    color: var(--navy);
+}
+
 .containerfooter{
     padding-right: 0; 
     padding-left: 0; 
@@ -514,4 +523,8 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
 
 .post-item:hover .post-title {
     opacity: 1; /* Fully visible on hover */
+}
+
+.page-id-1014 .entry-title{
+    display:none;
 }

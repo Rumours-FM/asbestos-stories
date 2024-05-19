@@ -10,16 +10,22 @@
         
                     <div class="col-sm-4 footerright">
                         <ul>
-                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="<?php echo get_permalink(1014); ?>">ABOUT US</a></li>
                             <li><a href="#">CONTACT US</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-4 footerright">
                         <ul>
-                            <li><a href="#">NHMRC</a></li>
-                            <li><a href="#">NCARD</a></li>
-                            <li><a href="#">MURDOCH UNIVERSITY</a></li>
-
+                            <?php
+                            $external_urls = array(
+                                array('url' => 'https://www.nhmrc.gov.au/', 'text' => 'NHMRC'),
+                                array('url' => 'https://ncard.org.au/', 'text' => 'NCARD'),
+                                array('url' => 'https://www.murdoch.edu.au/', 'text' => 'MURDOCH UNIVERSITY'),
+                            );
+                            ?>
+                            <?php foreach ($external_urls as $external_url): ?>
+                                <li><a href="<?php echo esc_url($external_url['url']); ?>"><?php echo esc_html($external_url['text']); ?></a></li>
+                            <?php endforeach; ?>
                         </ul>
                     </div>
                       
