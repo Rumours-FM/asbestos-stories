@@ -25,5 +25,11 @@ register_nav_menus( array(
 ?>
 <?php
 add_theme_support('post-thumbnails'); 
-add_theme_support('wide-align'); 
+?>
+<?php
+function asbestosstoriessite_setup_theme_supported_features() {
+  add_theme_support('align-wide');
+}
+
+add_action( 'after_setup_theme', 'asbestosstoriessite_setup_theme_supported_features' );
 ?>
