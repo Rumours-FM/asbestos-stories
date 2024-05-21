@@ -533,3 +533,40 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
     padding: 4%;
 }
 
+/* .alignwide {
+  Set this if we actually use this setting
+  margin-left: -80px;
+  margin-right: -80px;
+  max-width: 100vw;
+} */
+
+.alignfull {
+    margin-left: calc(-100vw / 2 + 100% / 2);
+    margin-right: calc(-100vw / 2 + 100% / 2);
+    max-width: 100vw;
+  }
+  
+  .alignfull img {
+    width: 100vw;
+  }
+  
+  .container{
+      padding-left: 0%;
+      
+  }
+  
+  .wp-block-button, .wp-block-button__link{
+      background-color: var(--yellow);
+      font-weight: 700;
+      border-radius: 100px;
+      color: var(--navy);
+      padding: 1%;
+      outline-color: var(--yellow);
+      padding-left: 2%;
+      padding-right: 2%;
+  }
+  
+  .textquote{
+      font-size: 3em;
+      color: var(--lightblue);
+  }
