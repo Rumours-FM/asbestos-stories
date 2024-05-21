@@ -5,7 +5,7 @@
                     <div class="row">
         
                         <div class="nav-brand col-sm-4">
-                            <img alt="logo" class="img-fluid footerbrand" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/logo.svg">
+                            <a href=http://170.187.231.66/~mesh20/sub1><img alt="logo" class="img-fluid footerbrand" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/logo.svg"></a>
                         </div>
         
                     <div class="col-sm-4 footerright">
