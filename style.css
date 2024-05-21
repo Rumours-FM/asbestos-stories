@@ -16,6 +16,7 @@ Version: 1
     --yellowgray: #F9F7F1; 
     --sandy:#F9F5EA;
     --bluegray:#CFD5DF;
+    --darkyellow:#e0a800;
 }
 
 /* Stopping overflow content */
@@ -561,12 +562,97 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
       border-radius: 100px;
       color: var(--navy);
       padding: 1%;
-      outline-color: var(--yellow);
+      /* outline-color: var(--yellow); */
       padding-left: 2%;
       padding-right: 2%;
   }
-  
+  .wp-block-button:hover{
+    background-color: var(--darkyellow);
+    
+}
+
   .textquote{
       font-size: 3em;
       color: var(--lightblue);
   }
+
+  a:hover {
+    color: var(--cream);
+    text-decoration: none;
+  }
+
+
+/* makes colours actually show in editor */
+
+/* NAVY BLUE */
+.has-navy-blue-color {
+    color: var(--navy);
+}
+
+.has-navy-blue-background-color {
+    background-color: var(--navy);
+}
+
+.has-navy-blue-border-color {
+    border-color: var(--navy);
+}
+/* BLUE */
+.has-blue-color {
+    color: var(--lightblue);
+}
+
+.has-blue-background-color {
+    background-color: var(--lightblue);
+}
+
+.has-blue-border-color {
+    border-color: var(--lightblue);
+}
+/* GRAY BLUE */
+.has-gray-blue-color {
+    color: var(--lightblue);
+}
+
+.has-gray-blue-background-color {
+    background-color: var(--lightblue);
+}
+
+.has-gray-blue-border-color {
+    border-color: var(--lightblue);
+}
+/* YELLOW */
+.has-yellow-color {
+    color: var(--yellow);
+}
+
+.has-yellow-background-color {
+    background-color: var(--yellow);
+}
+
+.has-yellow-border-color {
+    border-color: var(--yellow);
+}
+/* CREAM */
+.has-cream-color {
+    color: var(--cream);
+}
+
+.has--background-color {
+    background-color: var(--cream);
+}
+
+.has-cream-border-color {
+    border-color: var(--yellowgray);
+}
+/* GRAY YELLOW */
+.has-gray-yellow-color {
+    color: var(--yellowgray);
+}
+
+.has-gray-yellow-background-color {
+    background-color: var(--yellowgray);
+}
+
+.has-gray-yellow-border-color {
+    border-color: var(--yellowgray);
+}
