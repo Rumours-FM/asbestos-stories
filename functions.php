@@ -25,4 +25,5 @@ register_nav_menus( array(
 ?>
 <?php
 add_theme_support('post-thumbnails'); 
+add_theme_support('wide-align'); 
 ?>
