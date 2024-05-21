@@ -29,6 +29,43 @@ add_theme_support('post-thumbnails');
 <?php
 function asbestosstoriessite_setup_theme_supported_features() {
   add_theme_support('align-wide');
+
+  add_theme_support('disable-custom-colors');
+  add_theme_support( 'editor-color-palette', array(
+    array(
+      'name'  => esc_attr__( 'navy blue', 'asbestosstoriessite' ),
+      'slug'  => 'navy-blue',
+      'color' => '#0F2F5E',
+    ),
+    array(
+      'name'  => esc_attr__( 'blue', 'asbestosstoriessite' ),
+      'slug'  => 'blue',
+      'color' => '#5E98E3',
+    ),
+    array(
+      'name'  => esc_attr__( 'gray blue', 'asbestosstoriessite' ),
+      'slug'  => 'gray-blue',
+      'color' => '#CFD5DF',
+    ),
+    array(
+      'name'  => esc_attr__( 'yellow', 'asbestosstoriessite' ),
+      'slug'  => 'yellow',
+      'color' => '#F0CC76',
+    ),
+    array(
+      'name'  => esc_attr__( 'cream', 'asbestosstoriessite' ),
+      'slug'  => 'cream',
+      'color' => '#FFEFC8',
+    ),
+    array(
+      'name'  => esc_attr__( 'gray yellow', 'asbestosstoriessite' ),
+      'slug'  => 'gray-yellow',
+      'color' => '#F9F7F1',
+    ),
+
+) );
+
+
 }
 
 add_action( 'after_setup_theme', 'asbestosstoriessite_setup_theme_supported_features' );
