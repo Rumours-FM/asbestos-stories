@@ -53,11 +53,6 @@
         ?>
     </ul>
 </div>
-
-    
-    <div class="comments-template">
-            <?php comments_template(); ?>
-        </div>
         
     <?php endwhile; ?>
     <?php else: ?>
