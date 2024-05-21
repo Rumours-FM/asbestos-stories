@@ -31,7 +31,7 @@
                     <h2 class="sectiontitle"><?php the_field('titleforstories'); ?></h2>
                     <p class="sectiontext"><?php the_field('paragraphforstories_top'); ?></p>
                     <p class="sectiontext"><?php the_field('paragraphforstories_bottom'); ?></p>
-                    <a href="<?php the_field('buttonforstories'); ?>" class="btn btn-warning whoarewebtn" role="button">Learn More</a>
+                    <a href="<?php the_field('buttonforstories2'); ?>" class="btn btn-warning whoarewebtn" role="button">Learn More</a>
                 </div>
             </div>
         </div>
