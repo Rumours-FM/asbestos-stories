@@ -380,6 +380,10 @@ footer ul{
     text-align: center;
 }
 
+.footerend p{
+    margin-bottom:0;
+}
+
 .footerend a{
     color: var(--navy);
 }

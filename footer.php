@@ -39,9 +39,13 @@
             
         </div> <!-- container -->
         <div class="container-fluid footerend">
-            <a href="#">TERMS OF USE</a>
+            <a href="<?php echo get_permalink(1676); ?>">TERMS OF USE</a>
             <a href="#">PRIVACY</a>
             <a href="#">ACKNOWLEDGEMENTS</a>
+        </div>
+
+        <div class="container-fluid footerend">
+            <p>© 2024 The Australian Asbestos Network, Murdoch University, Perth, Western Australia</p>          
         </div>
     </footer>
     <?php wp_footer(); ?>
