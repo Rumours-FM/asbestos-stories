@@ -11,7 +11,7 @@
                     <div class="col-sm-4 footerright">
                         <ul>
                             <li><a href="<?php echo get_permalink(1014); ?>">ABOUT US</a></li>
-                            <li><a href="#">CONTACT US</a></li>
+                            <li><a href="<?php echo get_permalink(1704); ?>">CONTACT US</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-4 footerright">
@@ -40,7 +40,7 @@
         </div> <!-- container -->
         <div class="container-fluid footerend">
             <a href="<?php echo get_permalink(1676); ?>">TERMS OF USE</a>
-            <a href="#">PRIVACY</a>
+            <a href="<?php echo get_permalink(1687); ?>">PRIVACY</a>
             <a href="#">ACKNOWLEDGEMENTS</a>
         </div>
 

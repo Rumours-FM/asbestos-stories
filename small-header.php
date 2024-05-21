@@ -36,7 +36,7 @@
     <header class="container-fluid containerheader">
         <nav class="navbar navbar-expand-md navbar-dark">
             <!-- Brand -->
-            <a class="navbar-brand" href="#"><img alt="asbestos stories logo" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/AsbestosStories_Logo_2024_White.svg"></a>
+            <a class="navbar-brand" href="http://170.187.231.66/~mesh20/sub1"><img alt="asbestos stories logo" src="http://170.187.231.66/~mesh20/sub1/wp-content/themes/asbestos_stories/images/AsbestosStories_Logo_2024_White.svg"></a>
         
             <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
