@@ -568,17 +568,17 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
       
   }
   
-  .wp-block-button, .wp-block-button__link{
+  .wp-block-button__link{
       background-color: var(--yellow);
       font-weight: 700;
       border-radius: 100px;
       color: var(--navy);
-      padding: 1%;
+      padding: 5%;
       /* outline-color: var(--yellow); */
-      padding-left: 2%;
-      padding-right: 2%;
+      
   }
-  .wp-block-button:hover{
+
+  .wp-block-button__link:hover{
     background-color: var(--darkyellow);
     
 }
