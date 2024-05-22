@@ -19,14 +19,11 @@
                                 <?php the_content(); ?>
                             </div><!--postcontent-->
 
-                            <div class="content-band">
-                                <span class="postmeta-category"><?php the_category(', '); ?></span>
-                                <span class="postmeta-comments"><?php comments_popup_link('0 Comments', '1 Comment', '% Comments'); ?></span>
-                            </div><!--content-band-->
+                            
                         </div><!--post class-->
 
                         <div class="related-template">
-                            <h3>RELATED POSTS</h3>
+                            <h3 class="sectiontitle">RELATED POSTS</h3>
                             <div class="rel-list row">
                                 <?php
                                 // Backup current post object
@@ -51,13 +48,13 @@
                                 if ($random_query->have_posts()) :
                                     while ($random_query->have_posts()) : $random_query->the_post();
                                         ?>
-                                        <div class="col-md-4">
+                                        <a href="<?php the_permalink(); ?>" class="col-md-4">
                                             <?php if (has_post_thumbnail()) {
                                                 the_post_thumbnail(array(150, 150), array('class' => 'post-thumbnail'));
                                             } ?>
-                                            <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a>
+                                            <h2 class="smallpost-title" rel="bookmark"><?php the_title(); ?></h2>
                                             <span class="related-posts-date"><?php the_time('F jS, Y'); ?></span>
-                                        </div>
+                                        </a>
                                         <?php
                                     endwhile;
                                 else :
