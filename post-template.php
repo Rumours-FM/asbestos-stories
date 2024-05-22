@@ -1,81 +1,87 @@
 <?php
-    /*
+/*
  * Template Name: Stories Post
  * Template Post Type: post, page, product
  */
-    ?>
+?>
 <?php require_once('small-header.php'); ?>
 <div class="container-fluid maincontainer">
     <div class="container">
         <div class="row">
             <section class="maintext">
 
-<article class="excerpts"> <!--we can reuse the css on the old article to restyle the new dynamic posts-->
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-                    
-    <div <?php post_class(); ?>>
+                <article class="excerpts"> <!--we can reuse the css on the old article to restyle the new dynamic posts-->
+                    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-        <div class="postcontent">
-            <?php /*?><?php the_post_thumbnail(array(150,150), array ('class' => 'alignright')); ?><?php */?>
-            <?php the_content(); ?>
-        </div><!--postcomtet-->
-                        
-        <div class="content-band">
-            <span class="postmeta-category"><?php the_category(', '); ?></span>
-            <span class="postmeta-comments"><?php comments_popup_link('0 Comments', '1 Comment', '% Comments'); ?></span>
-            
-        </div><!--content-band-->
-    </div><!--post class-->
-    <div class="related-template">
-    <h3>RELATED POSTS</h3>
-    <ul class="rel-list">
-        <?php
-        $backup = $post; //Backup current post object
-        $current = $post->ID;  //get current post id 
+                        <div <?php post_class(); ?>>
+
+                            <div class="postcontent">
+                                <?php the_content(); ?>
+                            </div><!--postcontent-->
+
+                            
+                        </div><!--post class-->
+
+                        <div class="related-template">
+                            <h3 class="sectiontitle">RELATED POSTS</h3>
+                            <div class="rel-list row">
+                                <?php
+                                // Backup current post object
+                                $backup = $post;
+                                $current = $post->ID;
+
+                                // Fetch categories of current post
+                                $categories = wp_get_post_categories($current);
                                 
-        global $post;
+                                // Query arguments
+                                $args = array(
+                                    'category__in'   => $categories, // Relevant categories
+                                    'orderby'        => 'rand', // Order by random
+                                    'posts_per_page' => 3, // Number of posts to display
+                                    'post__not_in'   => array($current) // Exclude current post
+                                );
 
-        //Fetch categories of current post
-        $counter = 0;
-        $allcats = '';
-        foreach ((get_the_category()) as $cat) {
-            if ($counter > 0) $allcats .= ',';
-            $allcats .= $cat->cat_ID;
-            $counter++;
-        }
-        
-    $myposts = get_posts('numberposts=3&order=DESC&category=');
-        foreach ($myposts as $post) :
-            setup_postdata($post);
-            ?>
-        <li>
-            <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a>
-            <span class="related-posts-date"><?php the_time('F jS, Y'); ?></span>
-        </li>
-        <?php endforeach;
-                                
-        $post = $backup; //restore current post object
-        wp_reset_query();
-        ?>
-    </ul>
-</div>
+                                // Custom query
+                                $random_query = new WP_Query($args);
 
-    
-    <div class="comments-template">
-            <?php comments_template(); ?>
+                                // Loop through the posts
+                                if ($random_query->have_posts()) :
+                                    while ($random_query->have_posts()) : $random_query->the_post();
+                                        ?>
+                                        <a href="<?php the_permalink(); ?>" class="col-md-4">
+                                            <?php if (has_post_thumbnail()) {
+                                                the_post_thumbnail(array(150, 150), array('class' => 'post-thumbnail'));
+                                            } ?>
+                                            <h2 class="smallpost-title" rel="bookmark"><?php the_title(); ?></h2>
+                                            <span class="related-posts-date"><?php the_time('F jS, Y'); ?></span>
+                                        </a>
+                                        <?php
+                                    endwhile;
+                                else :
+                                    echo '<p>No related posts found.</p>';
+                                endif;
+
+                                // Reset post data
+                                wp_reset_postdata();
+
+                                // Restore original post data
+                                $post = $backup;
+                                ?>
+                            </div>
+                        </div>
+
+                        <div class="comments-template">
+                            <?php comments_template(); ?>
+                        </div>
+
+                    <?php endwhile; else : ?>
+                        <div class="post">
+                            <p>Sorry, no posts found.</p>
+                        </div><!--post-->
+                    <?php endif; ?>
+                </article>
+            </section>
         </div>
-        
-    <?php endwhile; ?>
-    <?php else: ?>
-    <div class="post">
-        <p>Sorry, no posts found.</p>
-    </div><!--post-->
-    <?php endif; ?>
-</article>
-</section>
-
-            
-     </div>
     </div>
-  </div>
+</div>
 <?php get_footer(); ?>

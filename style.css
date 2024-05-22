@@ -407,7 +407,6 @@ footer ul{
 }
 
 .pageheader{
-    width: 100%;
     /* background-image: linear-gradient(
         to right,
         transparent 0%,
@@ -418,7 +417,6 @@ footer ul{
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 10%;
-    padding-bottom: 10%;
 }
 
 .smallheader{
@@ -542,6 +540,14 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
     opacity: 1; /* Fully visible on hover */
 }
 
+.smallpost-title {
+    font-family: "League Spartan", sans-serif;
+    color: var(--navy);
+    font-size: 1.6em;
+    font-weight: bold;
+    
+}
+
 .storiesblurb{
     padding: 4%;
 }
@@ -568,17 +574,17 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
       
   }
   
-  .wp-block-button, .wp-block-button__link{
+  .wp-block-button__link{
       background-color: var(--yellow);
       font-weight: 700;
       border-radius: 100px;
       color: var(--navy);
-      padding: 1%;
+      padding: 5%;
       /* outline-color: var(--yellow); */
-      padding-left: 2%;
-      padding-right: 2%;
+      
   }
-  .wp-block-button:hover{
+
+  .wp-block-button__link:hover{
     background-color: var(--darkyellow);
     
 }
@@ -592,7 +598,6 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
     color: var(--cream);
     text-decoration: none;
   }
-
 
 /* makes colours actually show in editor */
 
