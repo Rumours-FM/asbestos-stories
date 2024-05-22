@@ -41,7 +41,7 @@
         <div class="container-fluid footerend">
             <a href="<?php echo get_permalink(1676); ?>">TERMS OF USE</a>
             <a href="<?php echo get_permalink(1687); ?>">PRIVACY</a>
-            <a href="#">ACKNOWLEDGEMENTS</a>
+            <a href="http://170.187.231.66/~mesh20/sub1/?page_id=1014#acknowledgements">ACKNOWLEDGEMENTS</a>
         </div>
 
         <div class="container-fluid footerend">
