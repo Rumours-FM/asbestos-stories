@@ -676,3 +676,17 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
 .has-gray-yellow-border-color {
     border-color: var(--yellowgray);
 }
+
+.search-btn{
+    color:#0F2F5E;
+    background-color:#0F2F5E;
+    border:none;
+    height:calc(1.5em + .75rem + 2px);
+    padding-right:0.5em;
+    padding-left:0.5em;
+    border-radius:0px 10px 10px 0px;
+
+    }
+    .rounded-search{
+    border-radius:10px
+    }
