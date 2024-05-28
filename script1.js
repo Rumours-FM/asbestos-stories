@@ -6,7 +6,7 @@ gsap.from('.heroimage', {opacity:0, duration:2, x:100, delay:0.5 ,ease:"slow"});
 gsap.from('.animateheader', {opacity:0, duration:2, x:-100, delay:0.7 ,ease:"slow"});
        
 gsap.from(".storiesquote", {
-        scrollTrigger:".storiesbg",
+        scrollTrigger:".storiestext",
         duration:2,
             y:250,
             opacity:0,
@@ -16,7 +16,7 @@ gsap.from(".storiesquote", {
     
 
 gsap.from(".learnaboutquote", {
-        scrollTrigger:".learnaboutbg",
+        scrollTrigger:".researchsection",
         duration:2,
             x:250,
             opacity:0,
@@ -25,7 +25,7 @@ gsap.from(".learnaboutquote", {
         });
 
         gsap.from(".aboutquote", {
-            scrollTrigger:".aboutbg",
+            scrollTrigger:".aboutusimage",
             duration:2,
                 x:250,
                 opacity:0,
@@ -34,7 +34,7 @@ gsap.from(".learnaboutquote", {
             });
 
             gsap.from(".historysmallerimage", {
-                scrollTrigger:".historybg",
+                scrollTrigger:".historybtn",
                 duration:2,
                     x:250,
                     opacity:0,
