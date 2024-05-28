@@ -183,6 +183,9 @@
     .historybg{
         padding-bottom: 15%;
     }
+    .btnstories{
+        margin-bottom: 3%;
+    }
 }
 
 @media only screen and (max-width: 737px){
