@@ -688,5 +688,5 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
 
     }
     .rounded-search{
-    border-radius:10px
+    border-radius:10px 0px 0px 10px;
     }
