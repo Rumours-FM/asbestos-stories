@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-md-6 medicalsection">
                     <img class="learnabouticon img-fluid" alt="image of files" src="<?php the_field('imageforlearnabout_right'); ?>">
-                    <p class="sectiontext learnabouttext learnaboutsmalltext"><?php the_field('paragraphforlearnabout_left'); ?></p>
+                    <p class="sectiontext learnabouttext learnaboutsmalltext"><?php the_field('paragraphforlearnabout_right'); ?></p>
                     <a href="<?php the_field('buttonforstories'); ?>" class="btn btn-warning" role="button">Learn More</a>
                 </div>
 
