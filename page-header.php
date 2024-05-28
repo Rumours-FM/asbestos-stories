@@ -67,7 +67,7 @@ wp_nav_menu( array(
         var(--cream) 100%
     ), url(<?php the_field('pageheaderbg'); ?>);">
     <div class="col-md-6 pagetag">
-        <h1><?php the_field('pageheadertitle'); ?> <b class="asbestos"><?php the_field('asbestos'); ?><span class=" underline"><?php the_field('underline'); ?></span></b></h1>
+        <h1 class="animateheader"><?php the_field('pageheadertitle'); ?> <b class="asbestos"><?php the_field('asbestos'); ?><span class=" underline"><?php the_field('underline'); ?></span></b></h1>
         <p><?php the_field('pagetagline'); ?></p>
     </div> <!-- container -->
 </div>
