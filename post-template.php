@@ -23,7 +23,7 @@
                         </div><!--post class-->
 
                         <div class="related-template">
-                            <h3 class="sectiontitle">RELATED POSTS</h3>
+                            <h3 class="sectiontitle">Related Posts</h3>
                             <div class="rel-list row">
                                 <?php
                                 // Backup current post object
