@@ -366,6 +366,11 @@ footer{
     padding-top: 3%;
 }
 
+footer a:hover {
+    color: var(--cream);
+    text-decoration: none;
+  }
+
 .footerbrand{
     width: 150px;
     height: auto;
@@ -400,6 +405,11 @@ footer ul{
 .footerend a{
     color: var(--navy);
 }
+
+.footerend a:hover {
+    color: var(--lightblue);
+    text-decoration: none;
+  }
 
 .containerfooter{
     padding-right: 0; 
@@ -598,7 +608,7 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
   }
 
   a:hover {
-    color: var(--cream);
+    color: var(--navy);
     text-decoration: none;
   }
 
