@@ -25,6 +25,10 @@ body{
 
 }
 
+.row{
+    margin:auto;
+}
+
 /* Navbar */
 .containerheader{
     padding-right: 0%; 
@@ -582,10 +586,10 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
     width: 100vw;
   }
   
-  .container{
+  /* .container{
       padding-left: 0%;
       
-  }
+  } */
   
   .wp-block-button__link{
       background-color: var(--yellow);
