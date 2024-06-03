@@ -34,9 +34,9 @@
 
 
 
-    <h1 class="page-title"><?php _e( 'Search results for:', 'nd_dosth' ); ?></h1>
+    <h1 class="page-title"><?php _e( 'Search results for: ', 'nd_dosth' ); ?></h1>
 
-  <h1 class="search-query "><?php echo get_search_query(); ?></h1> 
+  <h1 class="search-query"><?php echo get_search_query(); ?></h1> 
 
     </div>   
     <div class="container">
@@ -51,6 +51,7 @@
                         <a href="<?php the_permalink(); ?>" class="read-more-link">
                             <?php _e( 'Read More', 'nd_dosth' );  ?>
                         </a>
+                        <hr class="search-break">
                     </div>
                 <?php endwhile; ?>
                 <?php the_posts_pagination(); ?>
