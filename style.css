@@ -94,6 +94,7 @@ body{
         #FFEFC8 70%,
         #FFEFC8 100%
     ); */
+    overflow-x: hidden;
 }
 
 /* Both tagline texts */
@@ -184,6 +185,7 @@ body{
     margin-bottom: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
+    overflow-x: hidden;
 }
 
 /* Controls all titles (the h2) */
@@ -286,6 +288,7 @@ blockquote:after{
     background-size: cover;
     padding-top: 10%;
     padding-bottom: 10%;
+    overflow-x: hidden;
 }
 
 
@@ -312,6 +315,10 @@ blockquote:after{
     background-size: cover;
     padding-top: 5%;
     padding-bottom: 10%;
+}
+
+.learnaboutcontainer{
+    overflow-x: hidden;
 }
 
 .learnaboutquote{
