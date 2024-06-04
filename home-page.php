@@ -38,7 +38,7 @@
     </section>
 
     <section class="container-fluid historybg text-right"> <!-- HISTORY -->
-        <div class="container">
+        <div class="container historycontainer">
         
             <div class="row">
 
@@ -61,7 +61,7 @@
     </section>
 
     <section class="container-fluid text-center learnaboutbg"> <!-- LEARN MORE-->
-        <div class="container">
+        <div class="container learnaboutcontainer">
             <h2 class="sectiontitle text-center learnabouttitle"><?php the_field('titleforlearnabout'); ?></b></h2>
             <blockquote class="learnaboutquote"><?php the_field('quoteforlearnabout'); ?></blockquote>
             <p class="sectiontext learnabouttext"><?php the_field('paragraphforlearnabout_middle'); ?>

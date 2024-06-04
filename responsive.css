@@ -1,17 +1,17 @@
-@media only screen and (max-width: 1686px){
+@media only screen and (max-width: 1719px){
     .tag h1{
         font-size: 8em;
     }
 }
 
-@media only screen and (max-width: 1505px){
+@media only screen and (max-width: 1532px){
     .tag h1{
         font-size: 7em;
     }
 
 }
 
-@media only screen and (max-width: 1315px){
+@media only screen and (max-width: 1345px){
     .tag h1{
         font-size: 6em;
     }
@@ -39,11 +39,14 @@
     }
 }
 
-@media only screen and (max-width: 1127px){
+@media only screen and (max-width: 1158px){
     .tag h1{
-        font-size: 5.5em;
+        font-size: 5em;
     }
 
+}
+
+@media only screen and (max-width: 1127px){
     .pagetag h1{
         font-size: 5.5em;
     }
@@ -61,11 +64,7 @@
     }
 }
 
-
 @media only screen and (max-width: 1036px){
-    .tag h1{
-        font-size: 5.2em;
-    }
     .tag p{
         font-size: 1.1em;
     }
@@ -108,10 +107,14 @@
     }
 }
 
-@media only screen and (max-width: 849px){
+@media only screen and (max-width: 878px){
     .tag h1{
-        font-size: 4em;
+        /* padding-left: 3%; */
+        font-size: 3.8em;
     }
+}
+
+@media only screen and (max-width: 849px){
     .tag p{
         font-size: 1em;
     }
@@ -140,9 +143,6 @@
     }
     .tag p{
         max-width: 48%;
-    }
-    .tag h1{
-        padding-left: 5%;
     }
     .pagetag{
         padding-left:5%;
@@ -186,13 +186,11 @@
     .btnstories{
         margin-bottom: 3%;
     }
-}
-
-@media only screen and (max-width: 737px){
-    .tag h1{
-        padding-left: 3%;
+    .wp-block-buttons > .wp-block-button.wp-block-button__width-50 {
+        width: auto;
     }
 }
+
 
 @media only screen and (max-width: 720px){
     .pagetag h1{
@@ -217,11 +215,11 @@
         font-size: 3em;
     }
     .tag p{
-        font-size: 0.5;
+        font-size: 0.5em;
     }
 
     .pagetag p{
-        font-size: 0.5;
+        font-size: 0.5em;
     }
     
 }
@@ -229,7 +227,7 @@
 @media only screen and (max-width: 558px){
     .historysmallerimage{
         left: 60%;
-        top: 50;    
+        top: 50%;    
     }
     .storiesquote{
         font-size: 2.4em;
@@ -285,5 +283,25 @@
         align-items: center;
         display: flex;
         justify-content: flex-end;
+    }
+}
+
+/* STORIES GRID  */
+@media only screen and (max-width: 800px){
+    .post-overlay{
+        opacity: 1;
+    }
+    .post-title{
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .post-item{
+        margin: 10%;
+    }
+    .post-grid{
+        display: block;
+        padding: 3%;
     }
 }

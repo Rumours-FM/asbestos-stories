@@ -25,6 +25,10 @@ body{
 
 }
 
+.row{
+    margin:auto;
+}
+
 /* Navbar */
 .containerheader{
     padding-right: 0%; 
@@ -90,6 +94,7 @@ body{
         #FFEFC8 70%,
         #FFEFC8 100%
     ); */
+    overflow-x: hidden;
 }
 
 /* Both tagline texts */
@@ -180,6 +185,7 @@ body{
     margin-bottom: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
+    overflow-x: hidden;
 }
 
 /* Controls all titles (the h2) */
@@ -282,6 +288,7 @@ blockquote:after{
     background-size: cover;
     padding-top: 10%;
     padding-bottom: 10%;
+    overflow-x: hidden;
 }
 
 
@@ -308,6 +315,10 @@ blockquote:after{
     background-size: cover;
     padding-top: 5%;
     padding-bottom: 10%;
+}
+
+.learnaboutcontainer{
+    overflow-x: hidden;
 }
 
 .learnaboutquote{
@@ -582,10 +593,10 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
     width: 100vw;
   }
   
-  .container{
+  /* .container{
       padding-left: 0%;
       
-  }
+  } */
   
   .wp-block-button__link{
       background-color: var(--yellow);
@@ -687,6 +698,8 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
     border-color: var(--yellowgray);
 }
 
+/* SEARCH CSS */
+
 .search-btn{
     color:#0F2F5E;
     background-color:#0F2F5E;
@@ -700,3 +713,28 @@ img.attachment-thumbnail.size-thumbnail.wp-post-image {
     .rounded-search{
     border-radius:10px 0px 0px 10px;
     }
+
+.search-break{
+    border-top: 3px solid var(--darkyellow);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+
+.page-title{
+    font-family: "League Spartan", sans-serif;
+    font-size: 3.75em;
+    font-weight: 600;
+    color: var(--navy);
+}
+
+.search-result{
+    font-family: "League Spartan", sans-serif;
+}
+
+.search-query{
+    font-family: "League Spartan", sans-serif;
+    font-size: 3.75em;
+    font-weight: 400;
+    color: var(--lightblue);
+}
